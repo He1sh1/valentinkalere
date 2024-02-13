@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="body">
+<div class="body" id="1">
+    <div class="main">
+    <p class="first">Ты будешь моей валентинкой? <3</p>
+    </div>  
+    <div class="buttons">
+        <button class="b1" onclick="document.getElementById('1').style.display='none'; document.getElementById('3').style.display='';">ДА</button>
+        <button class="b1" onclick="document.getElementById('1').style.display='none'; document.getElementById('2').style.display='';">пошел нахуй</button>
+    </div>
+    <div class="ran">
+    <img src="ece757b4c5f0374ae66b63ce4744f8af.png" alt="" class="img1">
+    </div>
+</div>
+
+<div class="body" style="display: none;" id="2">
+    <div class="main">
+        <p class="first">САМА ИДИ >:(</p>
+    </div>
+    <div class="ran">
+        <img src="c779c83f5457120fa10cb211ee047536.png" alt="" class="img1">
+        </div>
+    
+    </div>
+
+<div class="body" style="display: none;" id="3">
+   
+    <div class="main">
+        <p class="first">Когда мы встретимся?</p>
+    </div>
+    <div class="buttons">
+        <input class="date" type="date" name="dateTimeInput" id="dateTimeInput" value="2024-02-14" min="2024-02-14" max="2024-03-14">
+    </div>
+    <div class="buttons" style="margin-top: 2%;">
+        <button class="b1" id="21" onclick="document.getElementById('3').style.display='none'; document.getElementById('4').style.display='';">Дальше</button>
+    </div>
+    
+   
+</div>
+
+<div class="body" style="display: none;" id="4">
+   
+    <div class="main">
+        <p class="first">Где это будет?</p>
+    </div>
+    <div class="buttons">
+    <figure class="opt">
+        <img src="3518437242955329_e35f.png" alt="" class="img3"></img>
+        <label for="mine" class="label">У меня</label>
+        <input type="radio" name="where" id="mine" value="mine" class="radio" checked>
+       
+    </figure>
+    <figure class="opt">
+        <img src="image (1).png" alt="" class="img3"></img>
+        <label for="her" class="label">У тебя</label>
+        <input type="radio" name="where" id="her" value="her" class="radio">
+    </figure>
+    </div> 
+    <div class="buttons" id="22" onclick="document.getElementById('4').style.display='none'; document.getElementById('5').style.display='';"><button class="b1">Дальше</button></div>
+    
+</div>
+
+<div class="body" style="display: none;" id="5">
+   
+    <div class="main">
+        <p class="first">Что мы будем кушать?</p>
+    </div>
+    <div class="buttons">
+        <figure class="opt">
+            <img src="02c9f574eb076df36bb0088aa81680b2.png" alt="" class="img3"></img>
+            <label for="pizz" class="label">Пицца</label>
+            <input type="radio" name="what" id="pizz" value="пиццу" class="radio" checked>
+           
+        </figure>
+        <figure class="opt">
+            <img src="-3-01.png" alt="" class="img3"></img>
+            <label for="roll" class="label">Роллы</label>
+            <input type="radio" name="what" id="roll" value="роллы" class="radio">
+        </figure>
+        <figure class="opt">
+            <img src="image (2).png" alt="" class="img3"></img>
+            <label for="kfc" class="label">Кефас</label>
+            <input type="radio" name="what" id="kfc" value="Кефас" class="radio">
+        </figure>
+        <figure class="opt">
+            <img src="6pxgzXaQVjT80ImmbuX1O1YPSGm5828qOcFXvpsBaC7fkNFnlVaVzsFT44wl_dDGKOHrvtyadrwOgMYBRd2uv9cv.png" alt="" class="img3"></img>
+            <label for="mak" class="label">Мак</label>
+            <input type="radio" name="what" id="mak" value="Мак" class="radio">
+        </figure>
+        </div> 
+        <div class="buttons" id="23" onclick="document.getElementById('5').style.display='none'; document.getElementById('6').style.display='';"><button class="b1">Дальше</button></div>
+       
+    </div>
+
+<div class="body" style="display: none;" id="6">
+   
+    <div class="main">
+        <p class="first">Что мы будем смотреть?</p>
+    </div>
+    <div class="buttons">
+        <figure class="opt">
+            <img src="gum.png" alt="" class="img3"></img>
+            <label for="gum" class="label">Гамбол</label>
+            <input type="radio" name="whatch" id="gum" value="Гамбола" class="radio" checked>
+           
+        </figure>
+        <figure class="opt">
+            <img src="uni.png" alt="" class="img3"></img>
+            <label for="uni" class="label">Универ</label>
+            <input type="radio" name="whatch" id="uni" value="Универ" class="radio">
+        </figure>
+        <figure class="opt">
+            <img src="inter.png" alt="" class="img3"></img>
+            <label for="int" class="label">Интерны</label>
+            <input type="radio" name="whatch" id="int" value="Интернов" class="radio">
+        </figure>
+        <figure class="opt">
+            <img src="eva.png" alt="" class="img3"></img>
+            <label for="eva" class="label">Евангелион</label>
+            <input type="radio" name="whatch" id="eva" value="Еву" class="radio">
+        </figure>
+        </div> 
+        <div class="buttons" id="24" onclick="document.getElementById('6').style.display='none'; document.getElementById('7').style.display='';"><button class="b1">Дальше</button></div>
+       
+    </div>
+
+<div class="body" style="display: none;" id="7">
+   
+    <div class="main">
+        <p class="first">Спасибо за то что ты есть</p>
+    </div>
+    <div class="main">
+        <p class="second" id="resultElement"></p>
+    </div>
+    <div class="ran">
+        <img src="end.png" alt="" class="img1">
+        </div>
+   
+</div>
+<script src="main.js"></script>
+    
+</body>
+</html>

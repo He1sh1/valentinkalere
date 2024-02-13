@@ -1,0 +1,98 @@
+.body{
+    background-color: rgb(252, 212, 252);
+    
+
+
+}
+.main{
+    display: flex;
+    align-items:baseline;
+    align-content: center;
+    justify-content: center;
+}
+.first{
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    color: rgb(140, 72, 140);
+}
+.buttons{
+    flex-wrap: wrap;
+    display: flex;
+    align-items:baseline;
+    align-content: center;
+    justify-content: space-around;
+    
+}
+.b1{
+    background-color: rgb(210, 118, 210);
+    border-color: rgb(107, 53, 107);
+    color: rgb(140, 72, 140);
+    width: 120px;
+    height: 65px;
+    font-family: "Pacifico", cursive;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.b1:active{
+    background-color: rgb(140, 72, 140);
+    color:rgb(210, 118, 210);
+    transition: 0.2s all linear;
+}
+.img1{
+    height: 200px;
+}
+.img3{
+    height: 100px;
+}
+.ran{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date{
+    background-color:rgb(210, 118, 210) ;
+    border-color:rgb(107, 53, 107) ;
+    color: rgb(140, 72, 140);
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-family: "Pacifico", cursive;
+    border-radius: 10px;
+}
+.opt{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.label{
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    color: rgb(140, 72, 140);
+}
+.radio{
+  appearance: none;
+
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+.radio:checked{
+    border: 6px solid rgb(140, 72, 140) ;
+}
+
+.second{
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    color: rgb(140, 72, 140);
+}
